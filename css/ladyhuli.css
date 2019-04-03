@@ -1,0 +1,214 @@
+
+.wenBox{
+    width: 100%;
+    background-color: white;
+}
+.wen{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 58px 15px 54px;
+}
+.wen h1{
+    font-size: 60px;
+    letter-spacing: 2.9px;
+    margin-bottom: 21px;
+}
+.wen p{
+    margin: 0 auto;
+    font-size: 18px;
+    letter-spacing: 2px;
+    max-width: 970px;
+    word-break: keep-all;
+    margin-bottom: 10px;
+}
+.wen span{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+/*我在寻找*/
+.find{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    overflow: hidden;
+}
+.find span{
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 76px;
+    padding-right: 30px;
+    max-width: 120px;
+    padding-left: 30px;
+}
+.find select{
+    min-width: 180px;
+    padding: 26px 63px 26px 23px;
+    font-size: 16px;
+    color: white;
+    border-right: none;
+    border-left: none;
+    min-height: 72px;
+    -webkit-appearance: none;
+    background:url('../img/ladyhuli-img/san.PNG') no-repeat right center;
+    cursor: pointer;
+}
+
+/*洗发露*/
+.Xiul{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.Xiul li{
+    float: left;
+    /*padding: 10px 20px;*/
+    width: 33.33%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Xiul li img{
+    margin: 0 auto;
+}
+
+.bg{
+    width: 92%;
+    height: 100%;
+    background-color: white;
+}
+.bg a h2{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 9px;
+    letter-spacing: 2px;
+    color: black;
+}
+.bg a p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    display: block;
+    margin: 0;
+    color: #000;
+    word-break: keep-all;
+}
+
+@media (max-width: 990px) {
+    .Xiul li{
+        float: left;
+        width: 50%;
+    }
+}
+
+/*点击查看更多*/
+.LookMore{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.LookMore button{
+    border:1px solid white;
+    padding: 10px 40px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/*参见*/
+.can{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.can h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.can button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 80px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.aboutBox{
+    margin-top: 100px;
+}
+.white a{
+    padding-left: 0;
+}
+.footerBox{
+    border-top: 1px solid white;
+}
+@media (max-width: 760px) {
+    .wen h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 21px;
+    }
+    .wen p{
+        margin: 0 auto;
+        font-size: 14px;
+        letter-spacing: 2px;
+        max-width: 970px;
+        word-break: keep-all;
+        margin-bottom: 10px;
+    }
+    .find span{
+        display: block;
+        width: 100%;
+    }
+    .find select{
+        display: block;
+        width: 100%;
+        margin-left: 120px;
+        margin-right: 120px;
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+    .find .wei{
+        display: none;
+    }
+    .about_main{
+        margin: 0 auto;
+        float: none;
+    }
+    .bg img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .bg{
+        background-color: black;
+        /*width: 65%;*/
+        padding: 0 0;
+        margin-left: 50px;
+    }
+
+    .xi h2{
+        display: none;
+        font-size: 14px;
+    }
+}

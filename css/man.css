@@ -1,0 +1,189 @@
+.main{
+    background-color: white;
+}
+.wenBox{
+    width: 100%;
+}
+.wen{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 58px 15px 54px;
+}
+.wen h1{
+    font-size: 60px;
+    letter-spacing: 2.9px;
+    margin-bottom: 21px;
+}
+.wen p{
+    margin: 0 auto;
+    font-size: 18px;
+    letter-spacing: 2px;
+    max-width: 970px;
+    word-break: keep-all;
+    margin-bottom: 10px;
+}
+.wen span{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+/*我在寻找*/
+.find{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+    flex-flow: row wrap;
+    overflow: hidden;
+}
+.find span{
+    float: left;
+    text-align: center;
+    line-height: 76px;
+    padding-right: 30px;
+    max-width: 120px;
+    padding-left: 30px;
+}
+.find select{
+    min-width: 180px;
+    padding: 26px 63px 26px 23px;
+    font-size: 16px;
+    border-right: none;
+    border-left: none;
+    min-height: 72px;
+    -webkit-appearance: none;
+    background:url('../img/lady-img/san.jpg') no-repeat right center;
+    cursor: pointer;
+}
+
+/*洗发露*/
+.Xiul{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.Xiul li{
+    float: left;
+    /*padding: 10px 20px;*/
+    width: 33.33%;
+    text-align: center;
+}
+.bg{
+    background-color: black;
+    width: 65%;
+    padding: 0 50px;
+    margin-left: 50px;
+}
+.xi h1{
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0;
+}
+@media (max-width: 990px) {
+    .Xiul li{
+        float: left;
+        width: 50%;
+    }
+}
+
+/*点击查看更多*/
+.LookMore{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.LookMore button{
+    border:1px solid black;
+    padding: 10px 40px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/*参见*/
+.can{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.can h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.can button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 80px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.aboutBox{
+    margin-top: 100px;
+}
+.white a{
+    padding-left: 0;
+}
+@media (max-width: 760px) {
+    .wen h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 21px;
+    }
+    .wen p{
+        margin: 0 auto;
+        font-size: 14px;
+        letter-spacing: 2px;
+        max-width: 970px;
+        word-break: keep-all;
+        margin-bottom: 10px;
+    }
+    .find span{
+        display: block;
+        width: 100%;
+    }
+    .find select{
+        display: block;
+        width: 100%;
+        margin-left: 120px;
+        margin-right: 120px;
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+    .find .wei{
+        display: none;
+    }
+    .about_main{
+        margin: 0 auto;
+        float: none;
+    }
+    .bg img{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .bg{
+        background-color: black;
+        width: 65%;
+        padding: 0 0;
+        margin-left: 50px;
+    }
+    .xi h1{
+        font-size: 12px;
+    }
+}
